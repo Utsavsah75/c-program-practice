@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // find the reverse of a number using a function.
 #include <stdio.h>
 int reverse(int);
@@ -42,3 +43,21 @@ int main() {
 //   return 0;
 // }
 // The reverse of the number is: 54321*/
+=======
+// write a program to find the reverse of a number.
+#include <conio.h>
+#include <stdio.h>
+
+int main() {
+  int num, rev = 0, rem;
+  printf("Enter a number: ");
+  scanf("%d", &num);
+  while (num != 0) {
+    rem = num % 10;
+    rev = rev * 10 + rem;
+    num /= 10;
+  }
+  printf("The reverse of the number is: %d\n", rev);
+  return 0;
+}
+>>>>>>> f042e51 (space)

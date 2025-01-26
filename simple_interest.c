@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 #include <conio.h>
 #include <stdio.h>
+=======
+#include <stdio.h>
+#include <conio.h>
+
+>>>>>>> f042e51 (space)
 
 int main() {
   float p, r, t, si;
@@ -18,6 +24,7 @@ int main() {
 
   return 0;
 }
+<<<<<<< HEAD
 
 // -------------------------using function-------------------------
 
@@ -39,3 +46,5 @@ int main() {
 //   z = (p * t * r) / 100;
 //   return z;
 // }
+=======
+>>>>>>> f042e51 (space)
