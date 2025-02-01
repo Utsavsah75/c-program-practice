@@ -1,6 +1,7 @@
 // WAP to find the sum of first and last digit of a number using function.
 #include <stdio.h>
 int sumfirstlast(int);
+
 int main() {
   int num;
   printf("Enter a number: ");
@@ -9,6 +10,7 @@ int main() {
          sumfirstlast(num));
   return 0;
 }
+
 int sumfirstlast(int num) {
   int last, first;
   last = num % 10;

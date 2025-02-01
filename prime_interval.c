@@ -1,7 +1,6 @@
 // WAP to print all prime numbers between two intervals using functions.
 #include <stdio.h>
 int primenumber(int, int);
-
 int main() {
   int num1, num2;
   printf("Enter two numbers: ");
@@ -20,7 +19,6 @@ int primenumber(int prime1, int prime2) {
         break;
       }
     }
-
     if (flag == 0) {
       printf("%d ", prime1);
     }

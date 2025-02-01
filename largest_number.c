@@ -1,6 +1,7 @@
 // WAPto find the largest number among three numbers using function.
 #include <stdio.h>
 int largest(int, int, int);
+
 int main() {
   int a, b, c, l;
   printf("Enter the three numbers=");
@@ -9,7 +10,6 @@ int main() {
   printf("The largest number among %d,%d,%d is=%d", a, b, c, l);
   return 0;
 }
-
 int largest(int a, int b, int c) {
   if (a > b && a > c)
     return a;
