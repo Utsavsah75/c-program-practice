@@ -28,7 +28,6 @@ int primenumber(int prime1, int prime2) {
   }
   return 0;
 }
-
 /*output
 Enter two numbers: 7    19
 Prime numbers between 7 and 19 are: 7 11 13 17 

@@ -9,7 +9,6 @@ int main(){
     printf("Sum of digits of %d = %d", num, sum);
     return 0;
 }
-
 int add(int num){
     int sum=0;
     while(num != 0){
@@ -18,7 +17,6 @@ int add(int num){
     }
     return sum;
 }
-
 /*output
 Enter a number: 12345
 Sum of digits of 12345 = 15 */

@@ -1,10 +1,9 @@
 // #include<stdio.h>
-
 // int main(){
 //     int num, temp = num, rev = 0 ;
 //     printf("Enter a number: ");
 //     scanf("%d", &num);
-    //  //temp = num; // Preserve the temp number
+//  //temp = num; // Preserve the temp number
 //     while(num > 0){
 //         rev *= 10;
 //         rev += num % 10;
