@@ -3,11 +3,11 @@
 int sumfirstlast(int);
 
 int main() {
-  int num;
+  int num, sum;
   printf("Enter a number: ");
   scanf("%d", &num);
-  printf("The sum of first and last digit of %d is: %d\n", num,
-         sumfirstlast(num));
+  sum = sumfirstlast(num);
+  printf("The sum of first and last digit of %d is: %d\n", num, sum);
   return 0;
 }
 

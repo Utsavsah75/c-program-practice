@@ -29,11 +29,11 @@ int main() {
     printf("The number is not a palindrome.\n");
   return 0;
 }
-int palindrome(int num) {
-  int temp = num, rev = 0;
-  while (num > 0) {
-    rev = rev * 10 + num % 10;
-    num /= 10;
+int palindrome(int nums) {
+  int temp = nums, rev = 0;
+  while (nums > 0) {
+    rev = rev * 10 + nums % 10;
+    nums /= 10;
   }
   return temp == rev;
 }

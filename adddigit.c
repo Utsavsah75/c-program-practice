@@ -1,7 +1,6 @@
 //wap to add digit of a number using function
 #include <stdio.h>
 int add(int);
-
 int main(){
     int num,sum;
     printf("Enter a number: ");
@@ -10,7 +9,6 @@ int main(){
     printf("Sum of digits of %d = %d", num, sum);
     return 0;
 }
-
 int add(int num){
     int sum=0;
     while(num != 0){
