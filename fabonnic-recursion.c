@@ -12,11 +12,11 @@ int fabonnic(int n) {
     }
 }
 int main() {
-    int n, i;
+    int num, i;
     printf("Enter a number: ");
-    scanf("%d", &n);
+    scanf("%d", &num);
     printf("Fibonacci series: ");
-    for (i = 0; i < n; i++)    {
+    for (i = 0; i < num; i++)    {
         printf("%d ", fabonnic(i));
     }
     return 0;
