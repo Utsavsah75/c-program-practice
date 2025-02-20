@@ -5,6 +5,7 @@
 // //   scanf("%d", &num);
 // //   if (num <= 1) {
 // //     return 0;
+
 // //   }
 // //   // Check divisors from 2 to num/2
 // //   for (i = 2; i <= num / 2; i++) {
