@@ -15,7 +15,8 @@ int main() {
   }
   avg = sum / n;
   per = (sum / (n * 100)) * 100;
-  printf("---------------------------------------------\n");//   printf("The name of the student is: %s\n", name);//   printf("The roll number of the student is: %d\n", roll_number);
+  printf("---------------------------------------------\n");
+  //   printf("The name of the student is: %s\n", name);//   printf("The roll number of the student is: %d\n", roll_number);
   printf("The total marks obtained by the student is: %.2f\n", sum);
   printf("The average marks obtained by the student is: %.2f\n", avg);
   printf("The percentage of the student is: %.2f\n", per);
