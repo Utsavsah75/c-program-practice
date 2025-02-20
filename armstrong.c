@@ -9,7 +9,6 @@ int countDigits(int num) {
     }
     return count;
 }
-
 int isArmstrong(int num) {
     int num1 = num;
     int sum = 0;
@@ -23,7 +22,6 @@ int isArmstrong(int num) {
 
     return (sum == num1);
 }
-
 int main() {
     int num;
     printf("Enter a number: ");
@@ -34,6 +32,5 @@ int main() {
     } else {
         printf("%d is not an Armstrong number.\n", num);
     }
-
     return 0;
 }

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main() {
   int num, i, sum = 0;
   float avg, score[num];

@@ -42,4 +42,5 @@ int main() {
   } else {
     printf("Division: Fail\n");
   }
+  return 0;
 }

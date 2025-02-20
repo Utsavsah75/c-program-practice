@@ -21,25 +21,6 @@ int main() {
   return 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // // to calculate factorial
 // #include <stdio.h>
 // int main() {
