@@ -8,7 +8,7 @@ int main(){
         a[i]=n%2;
         n=n/2;
     }
-    printf("Binary of the given number= ");
+    printf("After converting into Binary=\t ");
     for(j=i-1;j>=0;j--){
         printf("%d",a[j]);
     }
