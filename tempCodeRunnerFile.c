@@ -1,35 +1,26 @@
-<<<<<<< HEAD
-//wap in c to convert decimal to binary.
 #include<stdio.h>
+
+int greatestnumber(int a[], int size){
+int max =a[0],i;
+for (i=0;i<size;i++){
+    if(a[i]>max){
+        max=a[i];
+    }
+}
+return max;
+}
+
 int main(){
-    int n,a[10],i,j;
-    printf("Enter the number: ");
-    scanf("%d",&n);
-    for(i=0;n>0;i++){
-        a[i]=n%2;
-        n=n/2;
+    int num, i, Great;
+    printf("Enter the number of elements in the array: ");
+    scanf("%d", &num);
+    int a[num];
+    printf("Enter %d elements of the array:",num);
+    for(i=0;i<num;i++){
+        scanf("%d", &a[i]);
     }
-    printf("Binary of the given number= ");
-    for(j=i-1;j>=0;j--){
-        printf("%d",a[j]);
-    }
+    int (*ptr)(int[], int)=greatestnumber;
+    Great = ptr(a, num);
+    printf("The greatest number in the array is: %d", Great);
     return 0;
 }
-=======
-
-void pizza();
-void burger();
-void sandwich();
-void french_fries();
-void ice_cream();
-int main()
-{
-    int choice;
-    printf("Enter your choice\n");
-    printf("1. Pizza\n");
-    printf("2. Burger\n");
-    printf("3. Sandwich\n");
-    printf("4. French Fries\n");
-    printf("5. Ice Cream\n");
-    scanf
->>>>>>> f042e51 (space)
