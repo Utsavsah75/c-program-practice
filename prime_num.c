@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // // #include <stdio.h>
 // // int main() {
 // //   int i, num, isPrime = 2; // Assume the number is prime initially
@@ -86,4 +85,3 @@ int main() {
 
     return 0;
 }
->>>>>>> f042e51 (space)
