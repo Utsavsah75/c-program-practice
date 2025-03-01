@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 utsav 1234
 =======
 3utsav 123
 >>>>>>> f042e51 (space)
+=======
+utsav 123
+>>>>>>> ed0d0b1 (Code using function)
