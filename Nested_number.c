@@ -16,7 +16,7 @@
     
 
 // ******************************************************************
-        
+       
 //  #include <stdio.h>
 //  int main() {
 //     int rows = 5; // Number of rows in the pattern       // 1
