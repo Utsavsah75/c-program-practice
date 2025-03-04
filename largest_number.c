@@ -10,7 +10,6 @@ int main(){
 }
 
 
-=======
 // WAPto find the largest number among three numbers using function.
 #include<stdio.h>
 int largest(int,int,int);
