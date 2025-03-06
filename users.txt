@@ -1,9 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-utsav 1234
-=======
-3utsav 123
->>>>>>> f042e51 (space)
-=======
-utsav 123
->>>>>>> ed0d0b1 (Code using function)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    FILE *ptr;
+    ptr = fopen("input.txt", "r");
+    if (ptr == NULL) {
+        printf("The file is not found");
+        exit(1);
+    }
+}
