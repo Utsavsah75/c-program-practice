@@ -3,7 +3,7 @@
 int main(){
     FILE *ptr;
     char filename[20], ch;
-    ptr=fopen("users.txt","r+");
+    ptr=fopen("users.txt","w+");
     if(ptr==NULL)
     {
         printf("Error! File not found");

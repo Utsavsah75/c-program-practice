@@ -13,7 +13,7 @@ int main() {
     int n, i;
     struct student std;
 
-    ptr = fopen("input.txt", "w");
+    ptr = fopen("users.txt", "w");
     if (ptr == NULL) {
         printf("The file does not exist\n");
         exit(1);
@@ -25,6 +25,7 @@ int main() {
     for (i = 0; i < n; i++) {
       // printf("Enter detail for student %d:\n", i + 1);
       printf("Enter the Name of students %d:", i + 1);
+      printf("Enter the Name of the student:");
       scanf("%s", std.name);
       printf("Enter the Roll No.:");
       scanf("%d", &std.roll);
@@ -34,12 +35,12 @@ int main() {
     }
     fclose(ptr);
 
-    ptr = fopen("input.txt", "r");
+    ptr = fopen("users.txt", "r");
     if (ptr == NULL) {
         printf("The file does not exist\n");
         exit(1);
     }
-    printf("The Details of the students are:\n");
+    printf("\nThe Details of the students are:\n");
     for (i = 0; i < n; i++) {
       fscanf(ptr, "Name: %s", std.name);
       fscanf(ptr, "Roll No.: %s", std.roll);
