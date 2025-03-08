@@ -1,3 +1,4 @@
+// WAP to check whether a number is Armstrong number or not using function.
 #include <stdio.h>
 #include <math.h>
 

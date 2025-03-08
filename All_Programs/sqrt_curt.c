@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-<<<<<<< HEAD
   int i;
 
   printf("Number\tSquare\tCube\n");
@@ -12,8 +11,6 @@ int main() {
   }
 
   return 0;
-=======
-    int i;
 
     printf("Number\tSquare\tCube\n");
     // printf("------------------------\n");
@@ -23,5 +20,4 @@ int main() {
     }
 
     return 0;
->>>>>>> f042e51 (space)
 }

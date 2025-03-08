@@ -1,3 +1,4 @@
+// WAP to  calculate the average score of n subjectsusing an array of floating point numbers.
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,4 @@
+// Title: Program to calculate the average marks and percentage of a student
 #include <stdio.h>
 int main() {
   int i, j, n = 3;

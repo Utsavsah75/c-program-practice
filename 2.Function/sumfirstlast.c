@@ -3,7 +3,6 @@
 int sumfirstlast(int);
 
 int main() {
-<<<<<<< HEAD
   int num, sum;
   printf("Enter a number: ");
   scanf("%d", &num);
@@ -12,15 +11,6 @@ int main() {
   return 0;
 }
 
-=======
-  int num;
-  printf("Enter a number: ");
-  scanf("%d", &num);
-  printf("The sum of first and last digit of %d is: %d\n", num,
-         sumfirstlast(num));
-  return 0;
-}
->>>>>>> ed0d0b1 (Code using function)
 int sumfirstlast(int num) {
   int last, first;
   last = num % 10;

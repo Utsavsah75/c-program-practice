@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //  using ******function find factorial of a number
 #include <stdio.h>
 int factorial(int n) {

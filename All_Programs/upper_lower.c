@@ -52,7 +52,6 @@ int main() {
 //   printf("The converted sentence is: %s\n", str);
 //   return 0;
 // }
-<<<<<<< HEAD
 
 
 // #include<stdio.h>
@@ -73,5 +72,4 @@ int main() {
 //     printf("%d", max);
 //     return 0;
 // }
-=======
->>>>>>> f042e51 (space)
+

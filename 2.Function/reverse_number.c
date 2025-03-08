@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // find the reverse of a number using a function.
 #include <stdio.h>
 int reverse(int);

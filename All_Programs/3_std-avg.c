@@ -1,3 +1,4 @@
+// Title: Average and percentage of total marks
 #include<stdio.h>
 int main(){
     int mark[2],i;
