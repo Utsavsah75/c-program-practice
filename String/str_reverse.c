@@ -48,3 +48,8 @@ int stringrev(char *s){
     }
     return 0;
 }
+
+/* 
+Enter a string: utsavsah
+Reverse string is: hasvastu
+*/

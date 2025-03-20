@@ -37,3 +37,13 @@ printf("Special characters: %d\n", special);
 
   return 0;
 }
+
+/*output
+Enter a string: utsavsAH !@# 123
+Digits: 3
+Uppercases: 2
+Lowercases: 6
+Alphabets: 8
+Spaces: 3
+Special characters: 3
+*/

@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
 int main(){
     char str[100];
@@ -23,12 +23,17 @@ int main(){
             palindrome = 0;
             break ;
     }
+}
     if(palindrome){
         printf("%s is a palindrome.",str);
     }else{
         printf("%s is not a palindrome.",str);
 
     }
-}
+
 return 0;
 }
+/*
+Enter the string:level
+level is a palindrome.
+*/
