@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #87CEEB;
+            margin: 0;
+        }
+
+        .image-slider {
+            margin-top: 1px;
+            width: 100%;
+            height: 75%;
+            background-size: 100% 100%;
+           box-shadow:  5px 5px 15px 3px  rgb(82, 101, 110)      ;
+           animation: slide 5s linear infinite;
+        }
+
+        @keyframes slide {
+            0% { background-image: url('0.jpg'); }
+            25% { background-image: url('1.png'); }
+            50% { background-image: url('2.png'); }
+            75% { background-image: url('3.jpg'); }
+            100% { background-image: url('0.jpg'); }
+        }
+
+        .animated-input {
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .animated-input input {
+            width: 300px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background: transparent;
+            color: #000;
+            font-size: 16px;
+            outline: none;
+            z-index: -1;
+        }
+
+        .animated-input label {
+            position: absolute;
+            left: 12px;
+            bottom: 10px;
+            transition: 0.3s ease-in-out;
+            color: #8a2a2a;
+            pointer-events: none;
+            font-size: 16px;
+        }
+
+        .animated-input input:focus + label,
+        .animated-input input:valid + label {
+            bottom: 32px;
+            width: 27.5px;
+            font-size: 14px;
+            color: #000;
+            background: linear-gradient(#7ea5b3, #87CEEB);
+            padding: 1px 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-slider"></div>
+    <div class="animated-input">
+        <input type="email" id="email" required />
+        <label for="email">Email</label>
+    </div>
+</body>
+</html>

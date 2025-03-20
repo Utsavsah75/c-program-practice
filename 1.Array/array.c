@@ -8,6 +8,7 @@ void sortAscending(int arr[], int size);
 void sortDescending(int arr[], int size);
 void printArray(int arr[], int size);
 
+
 int main() {
     int size, i;
 

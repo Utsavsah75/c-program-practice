@@ -17,23 +17,17 @@ int main() {
             isEqual = 0;
             break;
         }
-    }
-
-    if (isEqual)
+    } if (isEqual)
         printf("The two strings are equal.\n");
     else
         printf("The two strings are not equal.\n");
 
-    // **Concatenate Strings Without strcat()**
+    // *********************Concatenate Strings Without strcat()**************
     for (i = 0; str1[i] != '\0'; i++) {
         concat[i] = str1[i];
-    }
-
-    for (j = 0; str2[j] != '\0'; j++) {
+    }for (j = 0; str2[j] != '\0'; j++) {
         concat[i + j] = str2[j];
-    }
-
-    concat[i + j] = '\0';  // Null-terminate the concatenated string
+    } concat[i + j] = '\0'; 
 
     printf("Concatenated String: %s\n", concat);
 

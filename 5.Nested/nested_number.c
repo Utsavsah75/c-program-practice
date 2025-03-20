@@ -31,11 +31,11 @@
 #include <stdio.h>
 int main() {
     int rows = 5; // Number of rows in the pattern
-      for (int i = 1; i <= rows; i++) {              // 1            
-        for (int j = 1; j <= i; j++) {               // 12            
-             printf("%d", j);                        // 123           
-            }                                        // 1234            
-            printf("\n");                            // 12345         
+      for (int i = 1; i <= rows; i++) {              // 1
+        for (int j = 1; j <= i; j++) {               // 1   2
+             printf("%d\t", j);                      // 1   2   3
+            }                                        // 1   2   3   4
+            printf("\n");                            // 1   2   3   4   5
             }
             return 0;
         }

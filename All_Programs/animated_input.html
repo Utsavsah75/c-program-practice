@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Input</title>
+    <style>
+        .animated-input {
+            position: relative;
+            margin: 20px;
+        }
+
+        .animated-input input {
+            width: 300px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background: transparent;
+            color: #fff;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .animated-input label {
+            position: absolute;
+            bottom: 10px;
+            left: 12px;
+            transition: 0.3s ease-in-out;
+            color: #fff;
+            pointer-events: none;
+            font-size: 16px;
+            background: transparent;
+        }
+
+        .animated-input input:focus + label,
+        .animated-input input:valid + label {
+            bottom: 35px;
+            font-size: 14px;
+            color: #1fcdc2;
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-input">
+        <input type="email" id="email" required />
+        <label for="email">Email</label>
+    </div>
+</body>
+</html>
