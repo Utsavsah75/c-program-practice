@@ -1,49 +1,48 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
-  char str[100];
-//   char *p = str; 
-  int digit, length, space, special, tab, alphabet, uppercase, lowercase, i;
-  digit = length = space = special = tab = alphabet = uppercase = lowercase= i = 0;
-  printf("Enter a string: ");
-  fgets(str, sizeof(str), stdin);
+    char str[100];
+    int digit, length, space, special, tab, alphabet, uppercase, lowercase, i;
+    digit = length = space = special = tab = alphabet = uppercase = lowercase = i = 0;
 
 
-  //kee *p where str[i] is used while using pointer.
-  while (str[i] != '\0') {
-    if (str[i] >= '0' && str[i] <= '9') {
-        digit++;
-    } else if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z')) {
-        if (str[i] >= 'a' && str[i] <= 'z') {
-            lowercase++;
+    printf("Enter a string: ");
+    fgets(str, sizeof str, stdin);
+
+    // Loop through each character
+    while (str[i] != '\0') {
+        if (str[i] >= '0' && str[i] <= '9') {
+            digit++;
+        } else if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z')) {
+            alphabet++;
+            if (str[i] >= 'a' && str[i] <= 'z') {
+                lowercase++;
+            } else {
+                uppercase++;
+            }
+        } else if (str[i] == ' ') {
+            space++;
+        } else if (str[i] == '\t') {
+            tab++;
+        } else if (str[i] == '\n') {
+            // newline++;
+            // Ignore newline added by fgets in space/special counting
         } else {
-            uppercase++;
+            special++;
         }
-        alphabet++;
-    } else if (str[i] == ' ' || str[i] == '\n' || str[i] == '\t') {
-        space++;
-    } else {
-        special++;
+        i++;
     }
-    i++;
-}
-printf("Digits: %d\n", digit);
-printf("Uppercases: %d\n", uppercase);
-printf("Lowercases: %d\n", lowercase);
-printf("Alphabets: %d\n", alphabet);
-printf("Spaces: %d\n", space);
-printf("Special characters: %d\n", special);
+    length = i; // Total number of characters including newline (if any)
 
-  return 0;
-}
+    printf("Digits: %d\n", digit);
+    printf("Tabs: %d\n", tab);
+    // printf("newline: %d\n", newline);
+    printf("Length: %d\n", length);
+    printf("Alphabets: %d\n", alphabet);
+    printf("Uppercase Letters: %d\n", uppercase);
+    printf("Lowercase Letters: %d\n", lowercase);
+    printf("Spaces: %d\n", space);
+    printf("Special characters: %d\n", special);
 
-/*output
-Enter a string: utsavsAH !@# 123
-Digits: 3
-Uppercases: 2
-Lowercases: 6
-Alphabets: 8
-Spaces: 3
-Special characters: 3
-*/
+    return 0;
+}

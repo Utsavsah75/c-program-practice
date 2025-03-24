@@ -8,14 +8,14 @@ int main(){
     printf("Enter the string:");
     scanf("%s",str);
     
-    //using library function
-    length = strlen(str);
+   // //using library function
+   // length = strlen(str);
 
 
-     //using without library function
-    // while (str[length] != '\0') {
-    //     length++;
-    // }
+    //using without library function
+    while (str[length] != '\0') {
+        length++;
+    }
 
 
     for(i=0;i<length/2;i++){

@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <conio.h>
-
-int main() {
-  char ch;
+   // while (str[length] != '\0') {
+    //     length++;
+    // }
