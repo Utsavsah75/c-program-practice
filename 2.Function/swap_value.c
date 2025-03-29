@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 int swap(int,int) ; // function declaration
-int main()
-{
+int main() {
  int num1, num2 ;
  num1 = 10 ;
  num2 = 20 ;
@@ -17,3 +16,21 @@ int swap(int a, int b) // called function
  a = b ;
  b = temp ;
 }
+
+// // by user input------------------
+// #include <stdio.h>
+// void swapnumber(int, int);
+// void swapnumber(int a, int b) {
+//   int temp;
+//   temp = a;
+//   a = b;
+//   b = temp;
+//   printf("\nAfter n1=%d and n2=%d", a, b);
+// }
+// int main() {
+//   int n1, n2, swap;
+//   printf("Enter two number:");
+//   scanf("%d%d", &n1, &n2);
+//   printf("Before n1=%d and n2=%d", n1, n2);
+//   swapnumber(n1, n2);
+// }

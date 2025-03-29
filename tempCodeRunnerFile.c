@@ -1,41 +1,16 @@
-#include <stdio.h>
-
-int main() {
-    char str1[100], str2[100], concat[200];
-    int i, j, isEqual = 1;
-
-    // Input two strings
-    printf("Enter first string: ");
-    scanf("%s", str1);
-
-    printf("Enter second string: ");
-    scanf("%s", str2);
-
-    // **Compare Strings Without strcmp()**
-    for (i = 0; str1[i] != '\0' || str2[i] != '\0'; i++) {
-        if (str1[i] != str2[i]) {
-            isEqual = 0;
-            break;
-        }
-    }
-
-    if (isEqual)
-        printf("The two strings are equal.\n");
-    else
-        printf("The two strings are not equal.\n");
-
-    // **Concatenate Strings Without strcat()**
-    for (i = 0; str1[i] != '\0'; i++) {
-        concat[i] = str1[i];
-    }
-
-    for (j = 0; str2[j] != '\0'; j++) {
-        concat[i + j] = str2[j];
-    }
-
-    concat[i + j] = '\0';  // Null-terminate the concatenated string
-
-    printf("Concatenated String: %s\n", concat);
-
-    return 0;
+#include<stdio.h>
+// void swapnumber(int, int);
+void  swapnumber(int *a, int *b){
+    int temp;
+   temp = *a;
+    *a = *b;
+    *b = temp;
+    printf("\nAfter n1=%d and n2=%d",*a,*b);
+}
+int main(){
+    int n1, n2,swap;
+    printf("Enter two number:");
+    scanf("%d%d",&n1,&n2);
+    printf("Before n1=%d and n2=%d",n1,n2);
+    swapnumber(&n1,&n2);
 }
