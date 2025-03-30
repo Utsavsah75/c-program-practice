@@ -3,26 +3,22 @@
 #include <stdio.h>
 int countDigits(int num) {
   int count = 0;
-  while (num != 0) {
+  while (num > 0) {
     count++;
     num /= 10;
   }
   return count;
 }
-
 int isArmstrong(int num) {
-  int num1 = num;
-  int sum = 0;
-  int n = countDigits(num);
-  while (num != 0) {
-    int digit = num % 10;
+  int num1=num,sum=0,n,digit;
+  n = countDigits(num);
+  while (num > 0) {
+    digit = num % 10;
     sum += pow(digit, n);
     num /= 10;
   }
-
   return (sum == num1);
 }
-
 int main() {
   int num;
   printf("Enter a number: ");
@@ -33,6 +29,5 @@ int main() {
   } else {
     printf("%d is not an Armstrong number.\n", num);
   }
-
   return 0;
 }
