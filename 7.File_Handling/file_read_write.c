@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main(){
     FILE *ptr;
-    char filename[20], ch;
+    char  ch;
     ptr=fopen("users.txt","w+");
     if(ptr==NULL)
     {
@@ -12,11 +12,11 @@ int main(){
     
     fprintf(ptr,"Hello Utsav sah!................\n");
     fprintf(ptr,"Hi i am fine!................\n");
-    //rewind(ptr); 
-    fseek(ptr, 0, SEEK_SET); 
-    while((ch = fgetc(ptr)) != EOF) {
-                putchar(ch);
-            }
+    // //rewind(ptr); 
+    // fseek(ptr, 0, SEEK_SET); 
+    // while((ch = fgetc(ptr)) != EOF) {
+    //             putchar(ch);
+    //         }
     fclose(ptr);
     rewind(ptr);
     return 0;

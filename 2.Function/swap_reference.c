@@ -21,8 +21,7 @@
 #include<stdio.h>
 // void swapnumber(int, int);
 void  swapnumber(int *a, int *b){
-    int temp;
-   temp = *a;
+    int temp = *a;
     *a = *b;
     *b = temp;
     printf("\nAfter swap n1=%d and n2=%d",*a,*b);

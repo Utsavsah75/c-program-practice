@@ -20,12 +20,12 @@ int main() {
     exit(1);
   }
 
-  printf("Enter the number of students");
+  printf("Enter the number of students:");
   scanf("%d", &n);
 
   for (i = 0; i < n; i++) {
     // printf("Enter detail for student %d:\n", i + 1);
-    printf("Enter the Name of students %d:", i + 1);
+    printf("Enter the detail of students: - %d:", i + 1);
     printf("\nEnter the Name of the student:");
     scanf("%s", std.name);
     printf("Enter the Roll No.:");
@@ -45,8 +45,8 @@ int main() {
   printf("\nThe Details of the students are:\n");
   for (i = 0; i < n; i++) {
     fscanf(ptr, "Name: %s", std.name);
-    fscanf(ptr, "Roll No.: %s", std.roll);
-    fscanf(ptr, "Marks: %s", std.marks);
+    fscanf(ptr, "Roll No: %d", &std.roll);
+    fscanf(ptr, "Marks: %f", &std.marks);
     printf("Name: %s\nRoll No: %d\nMarks: %.2f\n", std.name, std.roll,
            std.marks);
   }

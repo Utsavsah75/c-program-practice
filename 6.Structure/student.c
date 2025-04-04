@@ -15,7 +15,7 @@ int main() {
     printf("\nEnter the detail of student:");
     printf("\nEnter the name of %d student: ", i + 1);
     getchar();
-    fgets(std.name, 50, stdin);
+    fgets(std.name, 50, stdin); 
     printf("Enter the id: ");
     scanf("%d", &std.id);
     printf("Enter the marks: ");
