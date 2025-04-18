@@ -8,7 +8,7 @@ int main() {
   printf("Enter elements:\n"); // Input matrix with labeled elements
   for (i = 0; i < r; i++)
     for (j = 0; j < c; j++) {
-      printf("a%d%d: ", i + 1, j + 1);
+      printf("a[%d][%d]: ", i + 1, j + 1);
       scanf("%d", &t[i][j]);
     }
 

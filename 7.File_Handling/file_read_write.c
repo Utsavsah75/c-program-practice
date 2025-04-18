@@ -9,6 +9,7 @@ int main(){
         printf("Error! File not found");
         exit(1);
     }
+    printf("File opened successfully:\n");
     
     fprintf(ptr,"Hello Utsav sah!................\n");
     fprintf(ptr,"Hi i am fine!................\n");

@@ -25,6 +25,7 @@ int main() {
 
 
 }
+
 printf("\n\"Displaying Information of Employees\"\n");
 for(i=0;i<n;i++){
     printf("Information of employees: %d",i+1);

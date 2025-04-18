@@ -1,33 +1,39 @@
-#include <ctype.h> // For toupper function
+/* Write a C program to read the contents of a data file named abc.doc 
+and copy them in uppercase to another data file named xyz.doc.*/
 #include <stdio.h>
-#include <stdlib.h> // For file handling functions
-int main() {
-  char ch;
-  FILE *source; 
-  source = fopen("abc.doc", "r+"); // Open in read+write mode
-  if (source==NULL) {
-    printf("Error opening abc.doc\n");
-    return 1;
-  }
-  FILE *dest;
-  dest = fopen("xyz.doc", "w"); // Open destination file in write mode
-  if (dest==NULL) {
-    printf("Error opening xyz.doc\n");
-    fclose(source);
-    return 1;
-  }
-  // Convert to uppercase and write to destination file
-  while ((ch = fgetc(source)) != EOF) {
-    fputc(toupper(ch), dest);
-  }
-  // Write sample content to source file
-  fputs("Hello Utsav sah!................\n", source);
-  fputs("Hi I am fine and what about you!................\n", source);
-  rewind(source); // Move file pointer to the beginning for reading
+#include <ctype.h> // for toupper()
 
-  printf("File copied successfully with uppercase conversion.\n");
-  fclose(source);
-  fclose(dest);
-  return 0;
+int main() {
+    FILE *source, *dest;
+    char ch;
+
+    // Open source file in read mode
+    source = fopen("abc.doc", "r+");
+    if (source == NULL) {
+        printf("Error: Cannot open abc.doc\n");
+        return 1;
+    }
+
+    // Open dest file in write mode
+    dest = fopen("xyz.doc", "w");
+    if (dest == NULL) {
+        printf("Error: Cannot open xyz.doc\n");
+        fclose(source);
+        return 1;
+    }
+
+    // Read character by character and write in uppercase
+    while ((ch = fgetc(source)) != EOF) {
+        fputc(toupper(ch), dest);
+    }
+    fputs("Hello Utsav sah!................\n", source);
+    fputs("Hi I am fine and what about you!................\n", source);
+    rewind(source);
+    
+    printf("Content copied to xyz.doc in uppercase successfully.\n");
+
+    fclose(source);
+    fclose(dest);
+
+    return 0;
 }
-     

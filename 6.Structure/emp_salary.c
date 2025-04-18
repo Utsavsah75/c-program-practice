@@ -29,20 +29,16 @@ int main() {
 
         // Initialize high and low with the first employee's salary
         if (i == 0) {
-            high = low = emp.salary;
-            high_emp = low_emp = emp;
+            high_emp =low_emp= emp;
         } else {
-            if (emp.salary > high) {
-                high = emp.salary;
+            if (emp.salary > high_emp.salary) {
                 high_emp = emp;
             }
-            if (emp.salary < low) {
-                low = emp.salary;
+            if (emp.salary < low_emp.salary) {
                 low_emp = emp;
             }
         }
     }
-
     // Displaying Employee with Highest Salary
     printf("\nEmployee with Highest Salary:\n");
     printf("Name: %s\n", high_emp.name);

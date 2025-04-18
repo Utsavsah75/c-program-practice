@@ -1,26 +1,29 @@
 #include <stdio.h>
-int main() {
-    int a[3][3], i, j;
-    int (*p)[3];
-    p = a;
 
-    printf("Enter the elements of the matrix:\n");
-    for (i = 0; i < 3; i++)   
-        for (j = 0; j < 3; j++) {
-            printf("Enter element a%d%d: ", i + 1, j + 1);
-            scanf("%d", (*(p + i) + j));  // Correct way to access using pointer
+int main() {
+    int r, c, i, j;
+    int t[10][10]; // still using 2D array memory, but accessing via pointer
+
+    printf("Enter rows and columns: ");
+    scanf("%d %d", &r, &c);
+
+    printf("Enter elements:\n");
+    for (i = 0; i < r; i++)
+        for (j = 0; j < c; j++) {
+            printf("a[%d][%d]: ", i + 1, j + 1);
+            scanf("%d", (*(t + i) + j));
         }
-    printf("\nThe matrix is:\n");
-    for (i = 0; i < 3; i++) {
-        for (j = 0; j < 3; j++) 
-            printf("  %d", *(*(p + i) + j));  // Dereferencing to get value
-        printf("\n"); // Move to next line after printing a row
+    printf("Matrix:\n");
+    for (i = 0; i < r; i++) {
+        for (j = 0; j < c; j++)
+            printf("%d\t", *(*(t + i) + j));
+        printf("\n");
     }
-    printf("\nTranspose matrix:\n");
-    for (i = 0; i < 3; i++) {
-        for (j = 0; j < 3; j++) 
-            printf("  %d", *(*(p + j) + i));  // Switching rows and columns
-        printf("\n"); // Move to next line after printing a row
+    printf("Transpose:\n");
+    for (i = 0; i < c; i++) {
+        for (j = 0; j < r; j++)
+            printf("%d\t", *(*(t + j) + i));
+        printf("\n");
     }
     return 0;
 }

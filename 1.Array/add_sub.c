@@ -25,19 +25,12 @@ int main() {
             scanf("%d", &b[i][j]);
         }
     }
-    
-    // Performing addition and subtraction
+
+    // Display sum of matrices
+    printf("\nSum of the two matrices: \n");
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
             sum[i][j] = a[i][j] + b[i][j];
-            sub[i][j] = a[i][j] - b[i][j];
-        }
-    }
-    
-    // Display sum of matrices
-    printf("Sum of the two matrices: \n");
-    for (i = 0; i < n; i++) {
-        for (j = 0; j < n; j++) {
             printf("%d ", sum[i][j]);
         }
         printf("\n");
@@ -47,6 +40,7 @@ int main() {
     printf("Subtraction of the two matrices: \n");
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
+            sub[i][j] = a[i][j] - b[i][j];
             printf("%d ", sub[i][j]);
         }
         printf("\n");

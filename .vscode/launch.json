@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Utsav Prasad Sah/OneDrive/Desktop/C-Program-practice",
-      "program": "c:/Users/Utsav Prasad Sah/OneDrive/Desktop/C-Program-practice/build/Debug/outDebug",
+      "cwd": "c:/Users/Utsav Prasad Sah/OneDrive/Desktop/C-Program-practice/5.Nested",
+      "program": "c:/Users/Utsav Prasad Sah/OneDrive/Desktop/C-Program-practice/5.Nested/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,39 +1,35 @@
-#include <stdio.h>
-
-int main() {
-    int i, j;
-    int a[3][3], *p[3];
-
-    // Point each pointer to the corresponding row
-    for(i = 0; i < 3; i++) {
-        p[i] = a[i];
-    }
-
-    // Input matrix elements
-    printf("Enter 3x3 matrix elements:\n");
-    for(i = 0; i < 3; i++) {
-        for(j = 0; j < 3; j++) {
-            scanf("%d", &p[i][j]);
+#include<stdio.h>
+int main()
+{
+    int a[3][3],i,j;
+    int (*p)[3];
+    p=a;
+    printf("enter elements:\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            printf("element[%d][%d]=",i,j);
+            scanf("%d",(*(p+i)+j));
         }
     }
-
-    // Display original matrix
-    printf("\nOriginal Matrix:\n");
-    for(i = 0; i < 3; i++) {
-        for(j = 0; j < 3; j++) {
-            printf("%d ", p[i][j]);
+    printf("\nyour matrix");
+    for(i=0;i<3;i++)
+    {
+        // printf("\n");
+        for(j=0;j<3;j++)
+        {
+            printf("  %d",((p+i)+j));
         }
+    }
+    printf("\ntranspose matrix");
+    for(i=0;i<3;i++)
+    {
         printf("\n");
-    }
-
-    // Display transpose of the matrix
-    printf("\nTransposed Matrix:\n");
-    for(i = 0; i < 3; i++) {
-        for(j = 0; j < 3; j++) {
-            printf("%d ", p[j][i]);
+        for(j=0;j<3;j++)
+        {
+            printf("  %d",((p+j)+i));
         }
-        printf("\n");
     }
-
     return 0;
 }
