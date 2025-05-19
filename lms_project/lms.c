@@ -143,6 +143,7 @@ int registerUser() {
     printf("Role (admin/student): ");
     scanf("%s", roleStr);
 
+
     Role newRole = ROLE_NONE;
     if (strcmp(roleStr, "admin") == 0) newRole = ROLE_ADMIN;
     else if (strcmp(roleStr, "student") == 0) newRole = ROLE_STUDENT;
@@ -185,6 +186,7 @@ void adminMenu() {
         scanf("%d", &choice);
         getchar();
 
+        
         switch (choice) {
             case 1: addBook(); break;
             case 2: issueBook(); break;
