@@ -1,7 +1,7 @@
 // prime interval between two number using functions.
 #include <stdio.h>
 int isPrime(int num) {
-    if (num <= 2) // 0 and 1 are not prime numbers
+    if (num <= 1) // 0 and 1 are not prime numbers
     return 0; // 0 and 1 are not prime numbers
     for (int i = 2; i<= num/2; i++) {
         if (num % i == 0)
@@ -11,22 +11,24 @@ int isPrime(int num) {
 }
 
 // Function to print prime numbers in a given range
-void printPrimesInRange(int start, int end) {
+int printPrimesInRange(int start, int end) {
+    int sum = 0;    // Initialize sum to 0-------------------
     for (int i = start; i <= end; i++) {
-        if (isPrime(i)) {
+        if (isPrime(i)) { // Check if i is prime
             printf("%d ", i);
+            sum += i; // Add prime number to sum-------------------
         }
     }
-
+    printf("\n");
+    return sum;  // Return sum to main
 }
 int main() {
-    int start, end;
-    printf("Enter the start of the interval: ");
-    scanf("%d", &start);
-    printf("Enter the end of the interval: ");
-    scanf("%d", &end);    
+    int start, end,sum;
+     printf("Enter a two number interval: ");
+    scanf("%d%d", &start, &end);    
     printf("Prime numbers between %d and %d are: ", start, end);
-    printPrimesInRange(start, end);     // Calling the function 
+    sum = printPrimesInRange(start, end);     // Calling the function //sum added in function-----------
+     printf("The sum of prime numbers is: %d\n", sum);//----------------
 
     return 0;
 }
@@ -34,6 +36,28 @@ int main() {
 Enter two numbers: 7    19
 Prime numbers between 7 and 19 are: 7 11 13 17
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // // WAP to print all prime numbers between two intervals without using
 // #include <stdio.h>

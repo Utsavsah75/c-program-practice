@@ -23,7 +23,9 @@ int main() {
     else
         printf("The two strings are not equal.\n");
 
-    // **Concatenate Strings Without strcat()**
+
+
+    // **Concatenate Strings Without strcat()*******************
     for (i = 0; str1[i] != '\0'; i++) {
         concat[i] = str1[i];
     }

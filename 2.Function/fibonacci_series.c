@@ -1,9 +1,11 @@
 // using a function.************
 #include <stdio.h>
-void fibonacci(int n) {
+
+int fibonacci(int num); // Function prototype
+int fibonacci(int num) {
   int first = 0, second = 1, next;
 
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i < num; i++) {
     printf("%d ", first);
     next = first + second;
     first = second;
@@ -13,15 +15,11 @@ void fibonacci(int n) {
 }
 
 int main() {
-  int n;
+  int num;
   printf("Enter the number of terms: ");
-  scanf("%d", &n);
-  fibonacci(n);
-  if (n < 0) {
-    printf("Enter a posite number:\n");
-  } else {
+  scanf("%d", &num);
+  if(fibonacci(num))
     printf("Fibonacci Series: ");
-  }
   return 0;
 }
 

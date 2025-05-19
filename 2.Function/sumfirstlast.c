@@ -1,5 +1,5 @@
 // WAP to find the sum of first and last digit of a number using function.
-#include <stdio.h>
+#include <stdio.h> 
 int sumfirstlast(int);
 
 int sumfirstlast(int num) {

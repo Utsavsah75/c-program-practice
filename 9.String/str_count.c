@@ -32,7 +32,7 @@ int main() {
         }
         i++;
     }
-    length = i; // Total number of characters including newline (if any)
+   length = i; // Total number of characters including newline (if any)
 
     printf("Digits: %d\n", digit);
     printf("Tabs: %d\n", tab);
@@ -46,3 +46,17 @@ int main() {
 
     return 0;
 }
+/* output 
+Enter a string: hgfGGh  hkRGHR f2374& $^$#@        
+Digits: 4
+Tabs: 1
+Length: 27
+Alphabets: 13
+Uppercase Letters: 6
+Lowercase Letters: 7
+Spaces: 2
+Special characters: 6
+
+
+
+*/

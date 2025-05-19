@@ -2,11 +2,11 @@
 // Function to check if a number is prime
 int isPrime(int);
 int isPrime(int num) {
-  if (num <= 1)
+  if (num <= 1) // Check if num is less than or equal to 1
     return 0;
   for (int i = 2; i <= num / 2; i++) { // Optimized loop up to sqrt(num)
-    if (num % i == 0)
-      return 0;
+    if (num % i == 0) // If num is divisible by i
+      return 0; // Not prime, return 0
   }
   return 1;
 }
@@ -16,8 +16,8 @@ int main() {
   printf("Enter a number: ");
   scanf("%d", &num);
 
-  isPrimeNum = isPrime(num); // Call the function to check if num is prime
-  if (isPrimeNum == 1) {
+  // isPrimeNum = isPrime(num); // Call the function to check if num is prime
+  if (isPrime(num)) {
     printf("%d is  a prime number.\n", num);
   } else {
     printf("%d is composite number.\n", num);
