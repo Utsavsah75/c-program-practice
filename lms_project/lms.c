@@ -155,6 +155,7 @@ void add_students() {
   getchar();
   for (int i = 0; i < n; i++) {
     Student s;
+    printf("\nStudent: %d\n", i + 1);
     printf("Name: ");
     fgets(s.name, 100, stdin);
     s.name[strcspn(s.name, "\n")] = '\0';
@@ -358,9 +359,6 @@ void dashboard(const char *role, const char *username) {
       case 3:
         return_book_student(roll);
         break;
-    //   case 4:
-    //     view_students();
-    //     break;
       case 4:
         search_borrowed_book(roll);
         break;
