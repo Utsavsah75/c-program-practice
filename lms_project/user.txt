@@ -1,9 +1,0 @@
-USER,utsav,1,admin
-USER,kamal,1,student
-STUDENT,rupesh,23,BIT
-STUDENT,kamal,21,BIT
-STUDENT,Khajraj,12,BCA
-BOOK,c++,denish,123,5,0,1
-BOOK,java,stevan,125,6,0,23
-BORROW,123,1,2025-05-20
-BORROW,125,23,2025-05-20

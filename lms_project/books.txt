@@ -1,0 +1,2 @@
+c++|denis|denish|1235|2520|6
+java|strouth|hgufr|1256|2303|5
