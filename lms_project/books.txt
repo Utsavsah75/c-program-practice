@@ -1,2 +1,7 @@
-c++|denis|denish|1235|2520|6
-java|strouth|hgufr|1256|2303|5
+Title:-C-program|Author:-denish|Publisher:-denish|ISBN:-1230|Year:-2024|Copies:-5
+Title:-c++|Author:-strostup|Publisher:-strostup|ISBN:-2136|Year:-2021|Copies:-23
+Title:-java|Author:-stavier|Publisher:-stavier|ISBN:-1203|Year:-2023|Copies:-15
+Title:-sad|Author:-peter|Publisher:-peter|ISBN:-1205|Year:-2021|Copies:-12
+
+Title:-hp|Author:-hp|Publisher:-fef|ISBN:-1222|Year:-2023|Copies:-20
+Title:-dsa|Author:-hjfukfg|Publisher:-fdgh|ISBN:-12586|Year:-2035|Copies:-5

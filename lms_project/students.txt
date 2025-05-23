@@ -1,3 +1,6 @@
-utsavsah|100|utsav123|1235|utsavsah@gmail.com|9812345678|ktm|21
-sujitk|101|sujit123|1230|sujit@gmail.com|32389654|jhfdiy|20
-arya|102|arya123|111|arya@gmail.com|9898765456|bkt|20
+
+Name:-rupesh|ID:-1041|Username:-rupesh123|Pwd:-rupesh123|E-mail:rupesh123@gmail.com|Phone:-26448|Add:-ktm|Age:-20
+Name:-Khajraj|ID:-1467|Username:-Khajraj123|Pwd:-khaj123|E-mail:Khajraj123@gmail.com|Phone:-9851245|Add:-kjih|Age:-23
+Name:-ram|ID:-7334|Username:-ram123|Pwd:-12305|E-mail:ram123@gmail.com|Phone:-647856|Add:-sdfdsfe|Age:-23
+Name:-utsav|ID:-1041|Username:-utsav123|Pwd:-123456|E-mail:utsav!23@gmail.com|Phone:-45328|Add:-dwdf|Age:-20
+Name:-kamal|ID:-1041|Username:-kamal123|Pwd:-123|E-mail:kamal123|Phone:-54684954|Add:-ferg|Age:-20
