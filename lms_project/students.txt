@@ -1,6 +1,3 @@
-
-Name:-rupesh|ID:-1041|Username:-rupesh123|Pwd:-rupesh123|E-mail:rupesh123@gmail.com|Phone:-26448|Add:-ktm|Age:-20
-Name:-Khajraj|ID:-1467|Username:-Khajraj123|Pwd:-khaj123|E-mail:Khajraj123@gmail.com|Phone:-9851245|Add:-kjih|Age:-23
-Name:-ram|ID:-7334|Username:-ram123|Pwd:-12305|E-mail:ram123@gmail.com|Phone:-647856|Add:-sdfdsfe|Age:-23
-Name:-utsav|ID:-1041|Username:-utsav123|Pwd:-123456|E-mail:utsav!23@gmail.com|Phone:-45328|Add:-dwdf|Age:-20
-Name:-kamal|ID:-1041|Username:-kamal123|Pwd:-123|E-mail:kamal123|Phone:-54684954|Add:-ferg|Age:-20
+Name:-Arya|ID:-STD1467|UserName:-Arya123|Password:-14580|Email:-Arya123@gmail.com|Phone:-12345680|Address:-banpa|Age:-23
+Name:-sujit|ID:-STD7334|UserName:-sujit123|Email:-sujit123@gmail.com|Phone:-1234567890|Address:-ktm|Age:-21
+Name:-bisgal|ID:-STD1041|UserName:-bisgal|Email:-bisgal@gmail.com|Phone:-1|Address:-m|Age:-12

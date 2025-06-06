@@ -1,1 +1,3 @@
-sujit sujit123
+Name:-kamla|ID:-STF141|UserName:-kamla123|Password:-1230|Email:-kamla123@gmail.com|Phone:-984621370
+Name:-Anish|ID:-STF147|UserName:-Anish123|Password:-0|Email:-Anish123@gmail.com|Phone:-315654322
+Name:-Bishal|ID:-STF146|UserName:-Bishal123|Email:-Bishal123@gmail.com|Phone:-1234567890

@@ -1,1 +1,1 @@
-Enter keyword
+struct student

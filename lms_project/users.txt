@@ -39,3 +39,14 @@ Khajraj123 khaj123 student
 ram123 12305 student
 utsav123 123456 student
 kamal123 123 student
+utsavsah 12345 staff
+yadav123|12586|student
+fdfdre|vfgdgergdgff|student
+Sujit123|1230|student
+Arya123|arya123|student
+Ranjit123|ranjit123|student
+Ranjit123|1230|student
+Arya123|14580|student
+sujit123|145623|student
+kamalthakur|0|student
+bisgal|STD1041|student
