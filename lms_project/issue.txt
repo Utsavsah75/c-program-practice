@@ -1,3 +1,1 @@
-1041|rupesh|26448|12586|1747959510|1747959530|0.00
-sujit|STD7334|98012198435|c++|Bjarne|12345|1748363355
-Student Name:-Arya|Student-ID:-STD1467|Student-Phone:-12345680|Book_title:-c|book_author:-denish|book_isbn:-1970|1748396362
+StudentID:-STD1041|Name:-Utsav|Phone:-99123456789|Book:-c++|Author:-strostrup|ISBN:-1979|Issued:-2025-06-08|Return:-|Fine:-0.00

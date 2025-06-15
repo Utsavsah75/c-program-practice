@@ -1,3 +1,5 @@
-Name:-Arya|ID:-STD1467|UserName:-Arya123|Password:-14580|Email:-Arya123@gmail.com|Phone:-12345680|Address:-banpa|Age:-23
-Name:-sujit|ID:-STD7334|UserName:-sujit123|Email:-sujit123@gmail.com|Phone:-1234567890|Address:-ktm|Age:-21
-Name:-bisgal|ID:-STD1041|UserName:-bisgal|Email:-bisgal@gmail.com|Phone:-1|Address:-m|Age:-12
+Name:-Utsav|ID:-STD1041|Email:-Utsav123@gmail.com|Phone:-99123456789|Address:-ktm|Age:-20
+Name:-Sanjiv|ID:-STD1467|Email:-Sanjiv123@gmail.com|Phone:-0974108520|Address:-banepa|Age:-23
+Name:-Shyam|ID:-STD7334|Email:-Shyam123@gmail.com|Phone:-9801215489|Address:-lokhanthali|Age:-20
+Name:-Rajanish|ID:-STD1053|Email:-Rajanish123@gmail.com|Phone:-985462137|Address:-Malanwa|Age:-20
+Name:-Rojil|ID:-STD1041|Email:-Rojil123@gmail.com|Phone:-982556323|Address:-ktm|Age:-20

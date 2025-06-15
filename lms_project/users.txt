@@ -50,3 +50,12 @@ Arya123|14580|student
 sujit123|145623|student
 kamalthakur|0|student
 bisgal|STD1041|student
+Utsav123|STD1041|student
+Sanjiv123|STD1467|student
+Arya123|STD7334|student
+Kanal123|STD9500|student
+ranjit123|STD2169|student
+Rajanish|STD1041|student
+Arya|STD1041|student
+mari|Age:-6487351 harat123@gmail.com|Phone:-984562130|Address:-balkumari|Age:-6487351 staff
+Rojil|STD1041|student

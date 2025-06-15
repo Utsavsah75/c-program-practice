@@ -1,1 +1,3 @@
-StudentID:-STD7334|Name:-bishal|Phone:-0712789098|Book:-sad|Author:-sad|ISBN:-1235|Issued:-2025-06-06|Return:-|Fine:-0.00
+StudentID:-STD1041|Name:-Utsav|Phone:-99123456789|Book:-c++|Author:-strostrup|ISBN:-1979|Issued:-2025-06-02|Return:-2025-06-11|Fine:-14.10
+StudentID:-STD1031|Name:-arya|Phone:-595626426959|Book:-Nepali|Author:-Nepali|ISBN:-9630|Issued:-2025-06-11|Return:-2025-06-11|Fine:-0.00
+StudentID:-STD1467|Name:-Sanjiv|Phone:-0974108520|Book:-structure|Author:-anish|ISBN:-9999|Issued:-2025-06-11|Return:-2025-06-11|Fine:-0.00

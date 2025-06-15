@@ -1,1 +1,1 @@
-struct student
+struct Issue
