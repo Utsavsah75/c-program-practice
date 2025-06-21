@@ -1,3 +1,8 @@
 StudentID:-STD1041|Name:-Utsav|Phone:-99123456789|Book:-c++|Author:-strostrup|ISBN:-1979|Issued:-2025-06-02|Return:-2025-06-11|Fine:-14.10
-StudentID:-STD1031|Name:-arya|Phone:-595626426959|Book:-Nepali|Author:-Nepali|ISBN:-9630|Issued:-2025-06-11|Return:-2025-06-11|Fine:-0.00
-StudentID:-STD1467|Name:-Sanjiv|Phone:-0974108520|Book:-structure|Author:-anish|ISBN:-9999|Issued:-2025-06-11|Return:-2025-06-11|Fine:-0.00
+StudentID:-STD1031|Name:-arya|Phone:-595626426959|Book:-Nepali|Author:-Nepali|ISBN:-9630|Issued:-2025-06-11|Return:-N/A|Fine:-0.00
+StudentID:-STD1467|Name:-Sanjiv|Phone:-0974108520|Book:-structure|Author:-anish|ISBN:-9999|Issued:-2025-06-11|Return:-N/A|Fine:-0.00
+StudentID:-STD1053|Name:-Rajanish|Phone:-985462137|Book:-structure|Author:-anish|ISBN:-9999|Issued:-2025-06-16|Return:-N/A|Fine:-0.00
+StudentID:-STD7334|Name:-Shyam|Phone:-9801215489|Book:-structure|Author:-anish|ISBN:-9999|Issued:-2025-06-17|Return:-N/A|Fine:-0.00
+StudentID:-STD1049|Name:-sujit|Phone:-9812345678|Book:-social|Author:-socials|ISBN:-9999|Issued:-2025-06-18|Return:-2025-06-18|Fine:-0.00
+
+StudentID:-STD1041|Name:-Arya|Phone:-9812345678|Book:-math|Author:-peter|ISBN:-1232|Issued:-2025-06-21|Return:-2025-06-21|Fine:-0.00

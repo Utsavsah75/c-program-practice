@@ -1,8 +1,8 @@
-Name:-Rupesh|ID:-STF1041|Password:-1230|Email:-Rupesh123@gmail.com|Phone:-597554965|Address:-ktm|Age:-18
-Name:-ranjit|ID:-STF1467|Password:-123089|Email:-ranjit123@gmail.com|Phone:-9801231646|Address:-JNK|Age:-20
 Name:-Arya|ID:-STF7334|Password:-1250|Email:-Arya123@gmail.com|Phone:-96265865|Address:-imadol|Age:-20
-Name:-karan|ID:-STF9500|Password:-875222|Email:-karan123@gmail.com|Phone:-958955493|Address:-baneshwor|Age:-23
 Name:-hari|ID:-STF2169|Password:-26559|Email:-hari123@gmail.com|Phone:-599565865|Address:-banepa|Age:-25
-Name:-Aman|ID:-STF7724|Password:-2154|Email:-Aman123@gmail.com|Phone:-265632256532|Address:-sanga|Age:-24
-mari|Age:-6487351 harat123@gmail.com|Phone:-984562130|Address:-balkumari|Age:-6487351
-Name:-ranjit|ID:-STF1467|Password:-1230456|Email:-ranjit123@gmail.com|Phone:-9801231646|Address:-JNK|Age:-20
+Name:-shyam|ID:-STF7724|Password:-1230|Email:-shyam123@gmail.com|Phone:-985246133|Address:-kathmandu|Age:-20
+Name:-bishal|ID:-STF1041|Password:-9801|Email:-bishal123@gmail.com|Phone:-981234568|Address:-ktm|Age:-23
+Name:-rohit|ID:-STF1467|Password:-98123|Email:-rohit1234@gmail.com|Phone:-9801245786|Address:-jnk|Age:-20
+Name:-karan|ID:-STF1041|Password:-2356|Email:-karan123@gmail.com|Phone:-98465612|Address:-ktm|Age:-22
+Name:- Karan Sharma |ID:- ST1001 |Email:- karan123@gmail.com |Phone:- 9876543210 |Address:- Kathmandu |Age:- 28
+

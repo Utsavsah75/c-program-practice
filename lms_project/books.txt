@@ -1,5 +1,3 @@
-Title:-multimedia|Author:-surak|Publisher:-suraj|ISBN:-1230|Year:-2021|Number of Books:-26
-Title:-c++|Author:-strostrup|Publisher:-Bjarne|ISBN:-1979|Year:-1979|Number of Books:-16
-Title:-Java|Author:-denish|Publisher:-denish|ISBN:-1234|Year:-2021|Number of Books:-12
-Title:-Nepali|Author:-Nepali|Publisher:-Nepali|ISBN:-9630|Year:-2021|Number of Books:-22
-Title:-structure|Author:-anish|Publisher:-anish|ISBN:-9999|Year:-2023|Number of Books:-20
+Title:-c++|Author:-denish|Publisher:-denish|ISBN:-1230|Year:-2021|Number of Books:-20
+Title:-C|Author:-Denish|Publisher:-Denish|ISBN:-1231|Year:-2015|Number of Books:-18
+Title:-math|Author:-peter|Publisher:-peter|ISBN:-1232|Year:-2013|Number of Books:-25

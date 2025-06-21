@@ -1,0 +1,24 @@
+#talk-area {
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+.user {
+  background-color: #0d6efd;
+  align-self: flex-end;
+  color: white;
+  margin-left: auto;
+}
+
+.bot {
+  background-color: #343a40;
+  align-self: flex-start;
+}

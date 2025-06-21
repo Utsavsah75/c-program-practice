@@ -1,5 +1,4 @@
-Name:-Utsav|ID:-STD1041|Email:-Utsav123@gmail.com|Phone:-99123456789|Address:-ktm|Age:-20
-Name:-Sanjiv|ID:-STD1467|Email:-Sanjiv123@gmail.com|Phone:-0974108520|Address:-banepa|Age:-23
-Name:-Shyam|ID:-STD7334|Email:-Shyam123@gmail.com|Phone:-9801215489|Address:-lokhanthali|Age:-20
-Name:-Rajanish|ID:-STD1053|Email:-Rajanish123@gmail.com|Phone:-985462137|Address:-Malanwa|Age:-20
-Name:-Rojil|ID:-STD1041|Email:-Rojil123@gmail.com|Phone:-982556323|Address:-ktm|Age:-20
+Name:-Utsav|ID:-STD1045|Email:-Utsav123@gmail.com|Phone:-9801219843|Address:-ktm|Age:-21
+Name:-sujit|ID:-STD1467|Email:-sujit123@gmail.com|Phone:-98123456788|Address:-ktm|Age:-22
+Name:-Arya|ID:-STD1041|Email:-arya@gmail.com|Phone:-9812345678|Address:-ktm|Age:-20
+Name:-Rupesh|ID:-STD1056|Email:-rupesh@gmail.com|Phone:-980124570|Address:-kathmandu|Age:-20
