@@ -39,7 +39,8 @@ struct IssueRecord {
   double fine;
 };
 
-// Global
+// Global declaration It can be accessed and modified from any function in the
+// program Holds info about logged-in user  
 struct User current_user;
 
 // Prototypes
@@ -170,8 +171,7 @@ void admin_dashboard() {
     printf("\t\t\t\tEnter your choice: ");
 
     if (scanf("%d", &choice) != 1) {
-      while (getchar() != '\n')
-        ;
+      while (getchar() != '\n');
       printf("Invalid input. Please enter a number.\n");
       continue;
     }
@@ -1001,33 +1001,7 @@ void search_staffs(const char *keyword) {
 
   fclose(f);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*============================ Show part ================================*/
+/*============================ Show part ================================*/
     void
     show_record() {
   int choice;

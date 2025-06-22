@@ -6,3 +6,4 @@ Name:-rohit|ID:-STF1467|Password:-98123|Email:-rohit1234@gmail.com|Phone:-980124
 Name:-karan|ID:-STF1041|Password:-2356|Email:-karan123@gmail.com|Phone:-98465612|Address:-ktm|Age:-22
 Name:- Karan Sharma |ID:- ST1001 |Email:- karan123@gmail.com |Phone:- 9876543210 |Address:- Kathmandu |Age:- 28
 
+Name:-ram|ID:-STF1041|Password:-8520|Email:-ram123@gmail.com|Phone:-98123456789|Address:-kytm|Age:-20
